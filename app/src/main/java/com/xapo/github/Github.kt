@@ -39,7 +39,7 @@ class Github : Application(), HasActivityInjector {
         component.inject(this)
 
         CalligraphyConfig.initDefault(CalligraphyConfig.Builder()
-                .setDefaultFontPath(if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) "fonts/web_Yekan.otf" else "fonts/iran_sans.ttf")
+                .setDefaultFontPath("fonts/Roboto-Regular.ttf")
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         )
