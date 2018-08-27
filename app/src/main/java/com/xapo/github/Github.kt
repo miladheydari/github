@@ -1,9 +1,7 @@
 package com.xapo.github
 
-import android.annotation.SuppressLint
 import android.app.Activity
 import android.app.Application
-import android.os.Build
 import com.xapo.github.di.ApplicationComponent
 import com.xapo.github.di.DaggerApplicationComponent
 import dagger.android.AndroidInjector
